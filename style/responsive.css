@@ -1,0 +1,68 @@
+
+/* =============================
+         For making responsive 
+================================ */
+@media only screen and (max-width:500px){
+    .inner_header{
+      display: grid;
+      grid-template-columns: 1fr;
+      
+    }
+    #logo{
+      
+      margin: 15px auto;
+      font-size:1rem;
+    }
+    #menu{
+      
+      width: 100%;
+    }
+    
+    
+  .inner_service{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+  .child_service {
+      padding: 0 5px;
+  }
+  .inner_player {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .child_player {
+    /* padding: 50px 0; */
+    margin: 5px auto;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .child_player p{
+    margin: 5px auto;
+  }
+  /* work area  */
+  .inner_work{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .child_work{
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* footer area  */
+  .inner_footer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .child_footer p{
+    margin: 10px auto;
+    padding: 0 15px;
+  }
+  .child_footer h3{
+    padding: 5px 10px;
+  }
+  /* form section  */
+  input[type="submit"] {
+    float: none;
+  }
+  }

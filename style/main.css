@@ -1,0 +1,230 @@
+/* =============================
+        common css
+================================ */
+body{ margin: 0; padding: 0;}
+.container{ margin: 0 auto; width: 96%; max-width: 960px;}
+.fl_left{ float: left; margin-right: 5px; }
+hr{ margin: 0; color: #eee;}
+#row1, #footer_section{ background: #ddd;}
+
+/* =============================
+        Devider 
+================================ */
+
+.devider{
+  text-align: center;
+  /* margin: 20px; */
+  position: relative; 
+}
+.devider::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: black;
+  /* transform: translateY(-50%); */
+}
+.inner_devider{
+  position: relative;
+}
+.devider h1{  
+  color: #fff;
+  font-size: 22px;
+  padding: 4px 5px;
+  text-transform: uppercase;
+  font-weight: normal;
+  background: red;
+  border-radius: 5px;
+  display: inline-block;
+  z-index: 5;
+}
+/* =============================
+        Header 
+================================ */
+.inner_header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#logo{
+  margin: 40px 0;
+}
+#logo h1{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+}
+#logo h1 a{
+  text-decoration: none;
+}
+#logo p{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  
+}
+#menu{
+  margin: auto 0;
+}
+
+#menu ul{
+  background: #e74c3c;
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 2px;
+}
+#menu ul li{
+  float: left; 
+}
+#menu ul li:hover{
+  background: #c0392b; 
+}
+#menu ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5px;
+  text-transform: uppercase;
+}
+/* =============================
+        Slider 
+================================ */
+s
+/* =============================
+        Service section 
+================================ */
+.inner_service{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-gap: 1em;
+  
+}
+.child_service{
+  padding: 50px 0;
+}
+.child_service h3{
+  margin: 0;
+  padding: 5px;
+}
+.child_service p{
+  margin: 0;
+  padding: 5px 0;
+}
+.child_service a, .child_player a{
+  text-decoration: none;
+  color: red;
+  text-align: left;
+}
+/* =============================
+        player section 
+================================ */
+.inner_player{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* justify-items: center;
+  align-items: center; */
+  grid-gap: 20px;
+}
+.child_player{
+  /* padding: 50px 0;  */
+  margin: 50px auto;
+  justify-items: center;
+  align-items: center;
+  
+}
+.child_player:hover{
+  z-index: 5;
+  box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+  transition: 100ms;
+  border-radius: 10px;
+}
+
+/* =============================
+        work section 
+================================ */
+.inner_work{
+  display: grid;
+  grid-template-columns: repeat(3,4fr);
+}
+.child_work{
+  padding: 50px 0;
+}
+
+/* =============================
+        Footer section 
+================================ */
+.inner_footer{
+  display: grid;
+  grid-template-columns: 6fr 3fr 3fr;
+  grid-gap: 1em;
+  padding: 40px 0;
+}
+.child_footer img{
+  border: 4px solid #fff;
+  margin-right: 20px;
+}
+.child_itm{
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.child_itm p{
+  margin: 0;
+}
+.child_footer a{
+  text-decoration: none;
+  color: red;
+}
+
+/* =============================
+        form  
+================================ */
+input, textarea{
+  display: blocks;
+  width: 100%;
+  max-width: 210px;
+  margin: 5px 0;
+  height: 30px;
+  padding: 2px 30px;
+  font-size: 18px;
+  font-family: georgia;
+}
+textarea{
+  min-height: 75px;
+}
+input[type="submit"] {
+  color: #fff;
+  background:#eb2f06 ;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #eb2f06;
+
+}
+input[type="submit"]:hover{
+ background: #e55039;
+}
+
+/* =============================
+        CopyRight section 
+================================ */
+#copyright_section{
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  text-align: center;
+}
+.inner_copy{
+  padding: 5px 0;
+}
+.inner_copy a{
+  text-decoration: none;
+}

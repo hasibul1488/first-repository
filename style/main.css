@@ -94,13 +94,13 @@ hr{ margin: 0; color: #eee;}
 /* =============================
         Slider 
 ================================ */
-s
+
 /* =============================
         Service section 
 ================================ */
 .inner_service{
   display: grid;
-  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
   
 }
